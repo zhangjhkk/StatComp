@@ -1,0 +1,18 @@
+Package: StatComp20056
+Type: Package
+Title: Functions from research project and homework
+Version: 1.0
+Date: 2020-12-14
+Author: 20056
+Maintainer: 20056 <jh56273@mail.ustc.edu.cn>
+Description: It contains some functions from my reasearch project and all functions written and used in homework. Two vignettes files are included. The first one illustrates the usage of the (at least two) functions for my research project. The second  one includes all the homework answers.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5), Ball, RANN, boot, bootstrap, energy, microbenchmark, kedd
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+LazyData: true
+URL: http://github.com/zhangjhkk/StatComp
+BugReports: http://github.com/zhangjhkk/StatComp/issues
